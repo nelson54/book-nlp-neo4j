@@ -22,7 +22,7 @@ dependencies {
     compile group: 'net.sf.trove4j', name: 'trove4j', version: '3.0.3'
     compile group: 'com.io7m.xom', name: 'xom', version: '1.2.10'
 
-    compile 'org.springframework.data:spring-data-neo4j:2.2.0.RELEASE'
+    compile 'org.springframework.data:spring-data-neo4j:5.0.2.RELEASE'
 
 
 
