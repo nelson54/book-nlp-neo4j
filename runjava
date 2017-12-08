@@ -6,4 +6,4 @@ CLASSES=$here/bin
 CLASSES=$CLASSES:$(echo $here/lib/*.jar | tr ' ' :)
 CLASSES=$CLASSES:$here/book-nlp.jar
 
-java -XX:ParallelGCThreads=2 -Xmx3000m -ea -classpath $CLASSES $*
+java -XX:ParallelGCThreads=2 -Xmx3000m -ea -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 -classpath $CLASSES $*

@@ -1,0 +1,2 @@
+package novels.graph.data;
+
